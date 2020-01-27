@@ -1,0 +1,10 @@
+var numx = document.getElementById("numx");
+var x = parseInt(prompt("Введите значение x"));
+numx.innerHTML = x;
+var numn = document.getElementById("numn");
+var n = parseInt(prompt("Введите значение n"));
+numn.innerHTML = n;
+var res = document.getElementById("result");
+var res = Math.pow(x, n);
+result.innerHTML = res;
+alert('Result of x = ' + x + ' in power of n = ' + n + ' equals ' + res);
